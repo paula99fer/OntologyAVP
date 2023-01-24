@@ -1,0 +1,611 @@
+@prefix : <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix apo: <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology> .
+
+<http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology> rdf:type owl:Ontology ;
+                                                                     dc:creator """María José Rimón Martínez
+Paula Fernández Aldama""" ;
+                                                                     dc:date "01/20/2023" ;
+                                                                     dc:description "This ontology has been created in order to be used by any audiovisual platforms" ;
+                                                                     dc:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+                                                                     dc:rights <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
+                                                                     dc:title "Audiovisual Platform Ontology" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/date
+dc:date rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/license
+dc:license rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/rights
+dc:rights rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#actsIn
+apo:actsIn rdf:type owl:ObjectProperty ;
+           rdfs:domain apo:Actor ;
+           rdfs:range apo:AudiovisualContent .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#aimedAt
+apo:aimedAt rdf:type owl:ObjectProperty ;
+            rdfs:domain apo:AudiovisualContent ;
+            rdfs:range apo:Person .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#availableAt
+apo:availableAt rdf:type owl:ObjectProperty ;
+                rdfs:domain apo:AudiovisualContent ;
+                rdfs:range apo:StreamingPlatform .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#createdBy
+apo:createdBy rdf:type owl:ObjectProperty ;
+              owl:inverseOf apo:creates ;
+              rdfs:domain apo:Profile ;
+              rdfs:range apo:Person .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#createdIn
+apo:createdIn rdf:type owl:ObjectProperty ;
+              rdfs:domain apo:Profile ;
+              rdfs:range apo:StreamingPlatform .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#creates
+apo:creates rdf:type owl:ObjectProperty ;
+            rdfs:domain apo:Person ;
+            rdfs:range apo:Profile .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#directedBy
+apo:directedBy rdf:type owl:ObjectProperty ;
+               owl:inverseOf apo:directsA ;
+               rdfs:domain apo:AudiovisualContent ;
+               rdfs:range apo:Director .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#directsA
+apo:directsA rdf:type owl:ObjectProperty ;
+             rdfs:domain apo:Director ;
+             rdfs:range apo:AudiovisualContent .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#hasCast
+apo:hasCast rdf:type owl:ObjectProperty ;
+            rdfs:domain apo:AudiovisualContent ;
+            rdfs:range apo:CastandCrew .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#hasCertification
+apo:hasCertification rdf:type owl:ObjectProperty ;
+                     rdfs:domain apo:AudiovisualContent ;
+                     rdfs:range apo:Certification .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#hasGenre
+apo:hasGenre rdf:type owl:ObjectProperty ;
+             rdfs:domain apo:AudiovisualContent ;
+             rdfs:range apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#hasWonAward
+apo:hasWonAward rdf:type owl:ObjectProperty ;
+                owl:inverseOf apo:wonBy ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( apo:AudiovisualContent
+                                            apo:CastandCrew
+                                          )
+                            ] ;
+                rdfs:range apo:Awards .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#interestedIn
+apo:interestedIn rdf:type owl:ObjectProperty ;
+                 rdfs:domain apo:Person ;
+                 rdfs:range apo:AudiovisualContent .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#producedBy
+apo:producedBy rdf:type owl:ObjectProperty ;
+               owl:inverseOf apo:producesA ;
+               rdfs:domain apo:AudiovisualContent ;
+               rdfs:range apo:Producer .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#producesA
+apo:producesA rdf:type owl:ObjectProperty ;
+              rdfs:domain apo:Producer ;
+              rdfs:range apo:AudiovisualContent .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#scriptedBy
+apo:scriptedBy rdf:type owl:ObjectProperty ;
+               owl:inverseOf apo:scriptsA ;
+               rdfs:domain apo:AudiovisualContent ;
+               rdfs:range apo:Guionist .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#scriptsA
+apo:scriptsA rdf:type owl:ObjectProperty ;
+             rdfs:domain apo:Guionist ;
+             rdfs:range apo:AudiovisualContent .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#watchedBy
+apo:watchedBy rdf:type owl:ObjectProperty ;
+              rdfs:domain apo:AudiovisualContent ;
+              rdfs:range apo:Profile .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#wonBy
+apo:wonBy rdf:type owl:ObjectProperty ;
+          rdfs:domain apo:Awards ;
+          rdfs:range [ rdf:type owl:Class ;
+                       owl:unionOf ( apo:AudiovisualContent
+                                     apo:CastandCrew
+                                   )
+                     ] .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#budget
+apo:budget rdf:type owl:DatatypeProperty ;
+           rdfs:domain apo:AudiovisualContent ;
+           rdfs:range xsd:decimal .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#creationYearAC
+apo:creationYearAC rdf:type owl:DatatypeProperty ;
+                   rdfs:domain apo:AudiovisualContent ;
+                   rdfs:range xsd:integer .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#creationYearProfile
+apo:creationYearProfile rdf:type owl:DatatypeProperty ;
+                        rdfs:domain apo:Profile ;
+                        rdfs:range xsd:integer .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#dvdReleaseYear
+apo:dvdReleaseYear rdf:type owl:DatatypeProperty ;
+                   rdfs:domain apo:AudiovisualContent ;
+                   rdfs:range xsd:integer .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#gender
+apo:gender rdf:type owl:DatatypeProperty ;
+           rdfs:domain apo:Person ;
+           rdfs:range xsd:string .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#language
+apo:language rdf:type owl:DatatypeProperty ;
+             rdfs:domain apo:AudiovisualContent ;
+             rdfs:range xsd:language .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#lengthMinutes
+apo:lengthMinutes rdf:type owl:DatatypeProperty ;
+                  rdfs:domain apo:AudiovisualContent ;
+                  rdfs:range xsd:integer .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#name
+apo:name rdf:type owl:DatatypeProperty ;
+         rdfs:domain apo:Person ;
+         rdfs:range xsd:string .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#nick
+apo:nick rdf:type owl:DatatypeProperty ;
+         rdfs:domain apo:Profile ;
+         rdfs:range xsd:string .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#rating
+apo:rating rdf:type owl:DatatypeProperty ;
+           rdfs:domain apo:AudiovisualContent ;
+           rdfs:range xsd:double .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#sinopsis
+apo:sinopsis rdf:type owl:DatatypeProperty ;
+             rdfs:domain apo:AudiovisualContent ;
+             rdfs:range xsd:string .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#surname
+apo:surname rdf:type owl:DatatypeProperty ;
+            rdfs:domain apo:Person ;
+            rdfs:range xsd:string .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#title
+apo:title rdf:type owl:DatatypeProperty ;
+          rdfs:domain apo:AudiovisualContent ;
+          rdfs:range xsd:string .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#totalUserReviews
+apo:totalUserReviews rdf:type owl:DatatypeProperty ;
+                     rdfs:domain apo:AudiovisualContent ;
+                     rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Action
+apo:Action rdf:type owl:Class ;
+           rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Actor
+apo:Actor rdf:type owl:Class ;
+          rdfs:subClassOf apo:CastandCrew .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Adult
+apo:Adult rdf:type owl:Class ;
+          rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Adventure
+apo:Adventure rdf:type owl:Class ;
+              rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Animation
+apo:Animation rdf:type owl:Class ;
+              rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#AudiovisualContent
+apo:AudiovisualContent rdf:type owl:Class .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Awards
+apo:Awards rdf:type owl:Class .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Bafta
+apo:Bafta rdf:type owl:Class ;
+          rdfs:subClassOf apo:Awards .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#CastandCrew
+apo:CastandCrew rdf:type owl:Class ;
+                rdfs:subClassOf apo:Person .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Certification
+apo:Certification rdf:type owl:Class .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Comedy
+apo:Comedy rdf:type owl:Class ;
+           rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#CostumeDesigner
+apo:CostumeDesigner rdf:type owl:Class ;
+                    rdfs:subClassOf apo:CastandCrew .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Crime
+apo:Crime rdf:type owl:Class ;
+          rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Director
+apo:Director rdf:type owl:Class ;
+             rdfs:subClassOf apo:CastandCrew .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Documentary
+apo:Documentary rdf:type owl:Class ;
+                rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Drama
+apo:Drama rdf:type owl:Class ;
+          rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Familiar
+apo:Familiar rdf:type owl:Class ;
+             rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Fantasy
+apo:Fantasy rdf:type owl:Class ;
+            rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Genre
+apo:Genre rdf:type owl:Class .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#GoldenGlobe
+apo:GoldenGlobe rdf:type owl:Class ;
+                rdfs:subClassOf apo:Awards .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Guionist
+apo:Guionist rdf:type owl:Class ;
+             rdfs:subClassOf apo:CastandCrew .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#History
+apo:History rdf:type owl:Class ;
+            rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Horror
+apo:Horror rdf:type owl:Class ;
+           rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#MartialArts
+apo:MartialArts rdf:type owl:Class ;
+                rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Mistery
+apo:Mistery rdf:type owl:Class ;
+            rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Movie
+apo:Movie rdf:type owl:Class ;
+          rdfs:subClassOf apo:AudiovisualContent ;
+          owl:disjointWith apo:Serie .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Musical
+apo:Musical rdf:type owl:Class ;
+            rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Oscars
+apo:Oscars rdf:type owl:Class ;
+           rdfs:subClassOf apo:Awards .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Person
+apo:Person rdf:type owl:Class .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Producer
+apo:Producer rdf:type owl:Class ;
+             rdfs:subClassOf apo:CastandCrew .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Profile
+apo:Profile rdf:type owl:Class .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Religious
+apo:Religious rdf:type owl:Class ;
+              rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Romance
+apo:Romance rdf:type owl:Class ;
+            rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Science-Fiction
+apo:Science-Fiction rdf:type owl:Class ;
+                    rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Serie
+apo:Serie rdf:type owl:Class ;
+          rdfs:subClassOf apo:AudiovisualContent .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#StreamingPlatform
+apo:StreamingPlatform rdf:type owl:Class .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Thriller
+apo:Thriller rdf:type owl:Class ;
+             rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#War
+apo:War rdf:type owl:Class ;
+        rdfs:subClassOf apo:Genre .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#General(G)
+<http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#General(G)> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf apo:Certification .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)
+<http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf apo:Certification .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#NotRated(NR)
+<http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#NotRated(NR)> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf apo:Certification .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#ParentalGuidance(PG)
+<http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#ParentalGuidance(PG)> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf apo:Certification .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13)
+<http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13)> rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf apo:Certification .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Restricted(R)
+<http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Restricted(R)> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf apo:Certification .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Clark_Gable
+apo:Clark_Gable rdf:type owl:NamedIndividual ,
+                         apo:Actor ;
+                apo:actsIn <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> ;
+                apo:gender "male" ;
+                apo:name "Clark" ;
+                apo:surname "Gable" .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#David_O._Selznick
+apo:David_O._Selznick rdf:type owl:NamedIndividual ,
+                               apo:Producer ;
+                      apo:producesA <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> ;
+                      apo:gender "male" ;
+                      apo:name "David" ;
+                      apo:surname "O. Selznick" .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Epic_History
+apo:Epic_History rdf:type owl:NamedIndividual ,
+                          apo:History .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#G
+apo:G rdf:type owl:NamedIndividual ,
+               <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#General(G)> .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#HBO
+apo:HBO rdf:type owl:NamedIndividual ,
+                 apo:StreamingPlatform .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Leslie_Howard
+apo:Leslie_Howard rdf:type owl:NamedIndividual ,
+                           apo:Actor ;
+                  apo:actsIn <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> ;
+                  apo:gender "female" ;
+                  apo:name "Leslie" ;
+                  apo:surname "Howard" .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#MJP
+apo:MJP rdf:type owl:NamedIndividual ,
+                 apo:Profile ;
+        apo:createdBy apo:MariaJose ;
+        apo:createdIn apo:HBO ;
+        apo:creationYearProfile 2019 ;
+        apo:nick "MJP" .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#MariaJose
+apo:MariaJose rdf:type owl:NamedIndividual ,
+                       apo:Person ;
+              apo:creates apo:MJP ;
+              apo:gender "Female" ;
+              apo:name "MariaJose" ;
+              apo:surname "Rimonmartinez" .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Olivia_de_Havilland
+apo:Olivia_de_Havilland rdf:type owl:NamedIndividual ,
+                                 apo:Actor ;
+                        apo:actsIn <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Romantic_Drama
+apo:Romantic_Drama rdf:type owl:NamedIndividual ,
+                            apo:Drama ,
+                            apo:Romance .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Sidney_Howard
+apo:Sidney_Howard rdf:type owl:NamedIndividual ,
+                           apo:Guionist ;
+                  apo:scriptsA <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#True
+apo:True rdf:type owl:NamedIndividual ,
+                  apo:Oscars .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Victor__Fleming
+apo:Victor__Fleming rdf:type owl:NamedIndividual ,
+                             apo:Director ;
+                    apo:directsA <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#Vivien_Leigh
+apo:Vivien_Leigh rdf:type owl:NamedIndividual ,
+                          apo:Actor ;
+                 apo:actsIn <http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+
+
+###  http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#'Gone_with_the_wind'
+<http://w3id.org/def/mariajoseypaula/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> rdf:type owl:NamedIndividual ,
+                                                                                                  apo:Movie ;
+                                                                                         apo:availableAt apo:HBO ;
+                                                                                         apo:directedBy apo:Victor__Fleming ;
+                                                                                         apo:hasCast apo:Clark_Gable ,
+                                                                                                     apo:Leslie_Howard ,
+                                                                                                     apo:Olivia_de_Havilland ,
+                                                                                                     apo:Vivien_Leigh ;
+                                                                                         apo:hasCertification apo:G ;
+                                                                                         apo:hasGenre apo:Epic_History ,
+                                                                                                      apo:Romantic_Drama ;
+                                                                                         apo:hasWonAward apo:True ;
+                                                                                         apo:producedBy apo:David_O._Selznick ;
+                                                                                         apo:scriptedBy apo:Sidney_Howard ;
+                                                                                         apo:watchedBy apo:MJP ;
+                                                                                         apo:budget 100000000.00 ;
+                                                                                         apo:creationYearAC 1939 ;
+                                                                                         apo:dvdReleaseYear 2001 ;
+                                                                                         apo:language "English" ;
+                                                                                         apo:lengthMinutes 222 ;
+                                                                                         apo:rating "8.2"^^xsd:double ;
+                                                                                         apo:sinopsis "En la elegante mansión sureña de Tara, vive Scarlett O'Hara, la joven más bella, caprichosa y egoísta de la región. Ella suspira por el amor de Ashley, pero él está prometido con su prima, la dulce y bondadosa Melanie. En la última fiesta antes del estallido de la Guerra, Scarlett conoce al cínico y apuesto Rhett Butler, un vividor arrogante y aventurero, que no tiene ninguna intención de participar en la contienda. Lo único que él desea es hacerse rico y conquistar a Scarlett" ;
+                                                                                         apo:title "Gone_with _the_wind" ;
+                                                                                         apo:totalUserReviews 381 .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
