@@ -1,0 +1,43 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "apo:AudiovisualContent" "apo:GoldenGlobe" "apo:Comedy" "apo:Movie" "apo:Actor" ":" "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance(PG)" "apo:Horror" "apo:Certification" "apo:Musical" "apo:MartialArts" "apo:Adventure" "apo:Thriller" "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Restricted(R)" "apo:Guionist" "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NotRated(NR)" "apo:Genre" "apo:Director" "apo:Adult" "apo:CostumeDesigner" "apo:Science-Fiction" "apo:Drama" "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13)" "apo:Fantasy" "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)" "apo:Person" "apo:Awards" "apo:CastandCrew" "apo:Familiar" "apo:War" "apo:Oscars" "apo:Producer" "apo:Bafta" "apo:Crime" "apo:Mistery" "apo:Documentary" "apo:Action" "apo:History" "apo:Animation" "apo:Serie" "apo:Religious" "apo:Romance" ; /*classes style*/
+	"apo:Musical" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Movie" -> "apo:AudiovisualContent" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)" -> "apo:Certification" [ label = "rdfs:subClassOf" ];
+	":" -> "apo:Certification" [ label = "rdfs:subClassOf" ];
+	"apo:Animation" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:CastandCrew" -> "apo:Person" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13)" -> "apo:Certification" [ label = "rdfs:subClassOf" ];
+	"apo:Bafta" -> "apo:Awards" [ label = "rdfs:subClassOf" ];
+	"apo:Familiar" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Horror" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Adult" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Romance" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Drama" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:GoldenGlobe" -> "apo:Awards" [ label = "rdfs:subClassOf" ];
+	"apo:War" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Comedy" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Guionist" -> "apo:CastandCrew" [ label = "rdfs:subClassOf" ];
+	"apo:History" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NotRated(NR)" -> "apo:Certification" [ label = "rdfs:subClassOf" ];
+	"apo:Thriller" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Producer" -> "apo:CastandCrew" [ label = "rdfs:subClassOf" ];
+	"apo:Adventure" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Restricted(R)" -> "apo:Certification" [ label = "rdfs:subClassOf" ];
+	"apo:Religious" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:CostumeDesigner" -> "apo:CastandCrew" [ label = "rdfs:subClassOf" ];
+	"apo:MartialArts" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Serie" -> "apo:AudiovisualContent" [ label = "rdfs:subClassOf" ];
+	"apo:Actor" -> "apo:CastandCrew" [ label = "rdfs:subClassOf" ];
+	"apo:Action" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Mistery" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Science-Fiction" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Oscars" -> "apo:Awards" [ label = "rdfs:subClassOf" ];
+	"apo:Fantasy" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance(PG)" -> "apo:Certification" [ label = "rdfs:subClassOf" ];
+	"apo:Director" -> "apo:CastandCrew" [ label = "rdfs:subClassOf" ];
+	"apo:Documentary" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+	"apo:Crime" -> "apo:Genre" [ label = "rdfs:subClassOf" ];
+
+}
