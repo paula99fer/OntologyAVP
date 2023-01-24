@@ -1,0 +1,534 @@
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology> <http://purl.org/dc/elements/1.1/creator> "María José Rimón Martínez\nPaula Fernández Aldama" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology> <http://purl.org/dc/elements/1.1/date> "01/20/2023" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology> <http://purl.org/dc/elements/1.1/description> "This ontology has been created in order to be used by any audiovisual platforms" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology> <http://purl.org/dc/elements/1.1/license> <https://creativecommons.org/licenses/by-nc-sa/4.0/> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology> <http://purl.org/dc/elements/1.1/rights> <https://creativecommons.org/licenses/by-nc-sa/4.0/> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology> <http://purl.org/dc/elements/1.1/title> "Audiovisual Platform Ontology" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#aimedAt
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#aimedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#aimedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#aimedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#interestedIn
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#interestedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#interestedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#interestedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy> <http://www.w3.org/2000/01/rdf-schema#range> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#language> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Action
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adult
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adventure
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adventure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adventure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Animation
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Animation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Animation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Bafta
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Bafta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Bafta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Comedy
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Comedy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Comedy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CostumeDesigner
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CostumeDesigner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CostumeDesigner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Crime
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Crime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Crime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Documentary
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Documentary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Documentary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Familiar
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Familiar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Familiar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Fantasy
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Fantasy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Fantasy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#GoldenGlobe
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#GoldenGlobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#GoldenGlobe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Horror
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Horror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Horror> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MartialArts
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MartialArts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MartialArts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Mistery
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Mistery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Mistery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Musical
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Musical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Musical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Religious
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Religious> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Religious> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Science-Fiction
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Science-Fiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Science-Fiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Thriller
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Thriller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Thriller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#War
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#War> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#War> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#General(G)
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#General(G)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#General(G)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NotRated(NR)
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NotRated(NR)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NotRated(NR)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance(PG)
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance(PG)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance(PG)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13)
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Restricted(R)
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Restricted(R)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Restricted(R)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender> "male" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name> "Clark" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname> "Gable" .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender> "male" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name> "David" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname> "O. Selznick" .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Epic_History
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Epic_History> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Epic_History> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#G
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#General(G)> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender> "female" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name> "Leslie" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname> "Howard" .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile> "2019"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick> "MJP" .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender> "Female" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name> "MariaJose" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname> "Rimonmartinez" .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#True
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#True> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#True> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> .
+# 
+# http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#G> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Epic_History> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#True> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget> "100000000.00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC> "1939"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear> "2001"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language> "English" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes> "222"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating> "8.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis> "En la elegante mansión sureña de Tara, vive Scarlett O'Hara, la joven más bella, caprichosa y egoísta de la región. Ella suspira por el amor de Ashley, pero él está prometido con su prima, la dulce y bondadosa Melanie. En la última fiesta antes del estallido de la Guerra, Scarlett conoce al cínico y apuesto Rhett Butler, un vividor arrogante y aventurero, que no tiene ninguna intención de participar en la contienda. Lo único que él desea es hacerse rico y conquistar a Scarlett" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title> "Gone_with _the_wind" .
+<http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'> <http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews> "381"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,851 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+    }, {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+    }, {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "María José Rimón Martínez\nPaula Fernández Aldama"
+  } ],
+  "http://purl.org/dc/elements/1.1/date" : [ {
+    "@value" : "01/20/2023"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "This ontology has been created in order to be used by any audiovisual platforms"
+  } ],
+  "http://purl.org/dc/elements/1.1/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  } ],
+  "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@id" : "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Audiovisual Platform Ontology"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100000000.00"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1939"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2001"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable"
+  }, {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard"
+  }, {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland"
+  }, {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#G"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Epic_History"
+  }, {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#True"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language" : [ {
+    "@value" : "English"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "222"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "8.2"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis" : [ {
+    "@value" : "En la elegante mansión sureña de Tara, vive Scarlett O'Hara, la joven más bella, caprichosa y egoísta de la región. Ella suspira por el amor de Ashley, pero él está prometido con su prima, la dulce y bondadosa Melanie. En la última fiesta antes del estallido de la Guerra, Scarlett conoce al cínico y apuesto Rhett Butler, un vividor arrogante y aventurero, que no tiene ninguna intención de participar en la contienda. Lo único que él desea es hacerse rico y conquistar a Scarlett"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title" : [ {
+    "@value" : "Gone_with _the_wind"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "381"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adventure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Animation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Bafta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name" : [ {
+    "@value" : "Clark"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname" : [ {
+    "@value" : "Gable"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Comedy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CostumeDesigner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Crime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender" : [ {
+    "@value" : "male"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name" : [ {
+    "@value" : "David"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname" : [ {
+    "@value" : "O. Selznick"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Documentary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Epic_History",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Familiar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Fantasy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#G",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#General(G)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#General(G)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#GoldenGlobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Horror",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender" : [ {
+    "@value" : "female"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name" : [ {
+    "@value" : "Leslie"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname" : [ {
+    "@value" : "Howard"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2019"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick" : [ {
+    "@value" : "MJP"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender" : [ {
+    "@value" : "Female"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name" : [ {
+    "@value" : "MariaJose"
+  } ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname" : [ {
+    "@value" : "Rimonmartinez"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MartialArts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Mistery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Musical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NotRated(NR)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance(PG)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Religious",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Restricted(R)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama"
+  }, {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Science-Fiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Thriller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#True",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#'Gone_with_the_wind'"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#War",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#aimedAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#interestedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid4"
+  } ]
+} ]

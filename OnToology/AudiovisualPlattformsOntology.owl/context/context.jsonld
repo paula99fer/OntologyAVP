@@ -1,0 +1,268 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)"
+    },
+    "hasCast" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast",
+      "@type" : "@id"
+    },
+    "actsIn" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/elements/1.1/license"
+    },
+    "Fantasy" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Fantasy"
+    },
+    "War" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#War"
+    },
+    "sinopsis" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "totalUserReviews" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "creationYearAC" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Comedy" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Comedy"
+    },
+    "interestedIn" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#interestedIn",
+      "@type" : "@id"
+    },
+    "availableAt" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt",
+      "@type" : "@id"
+    },
+    "Director" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director"
+    },
+    "createdIn" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn",
+      "@type" : "@id"
+    },
+    "lengthMinutes" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "producedBy" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy",
+      "@type" : "@id"
+    },
+    "dvdReleaseYear" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Musical" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Musical"
+    },
+    "GoldenGlobe" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#GoldenGlobe"
+    },
+    "gender" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "createdBy" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy",
+      "@type" : "@id"
+    },
+    "Adult" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adult"
+    },
+    "Person" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"
+    },
+    "wonBy" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy",
+      "@type" : "@id"
+    },
+    "Documentary" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Documentary"
+    },
+    "Actor" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"
+    },
+    "History" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "Familiar" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Familiar"
+    },
+    "name" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Producer" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer"
+    },
+    "Guionist" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist"
+    },
+    "Science-Fiction" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Science-Fiction"
+    },
+    "creates" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates",
+      "@type" : "@id"
+    },
+    "surname" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "scriptedBy" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy",
+      "@type" : "@id"
+    },
+    "Bafta" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Bafta"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "Thriller" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Thriller"
+    },
+    "nick" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Profile" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"
+    },
+    "creationYearProfile" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "directedBy" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy",
+      "@type" : "@id"
+    },
+    "Mistery" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Mistery"
+    },
+    "Horror" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Horror"
+    },
+    "AudiovisualContent" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"
+    },
+    "hasCertification" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification",
+      "@type" : "@id"
+    },
+    "CostumeDesigner" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CostumeDesigner"
+    },
+    "Awards" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"
+    },
+    "Adventure" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adventure"
+    },
+    "MartialArts" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MartialArts"
+    },
+    "Certification" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"
+    },
+    "Movie" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie"
+    },
+    "CastandCrew" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"
+    },
+    "title" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Oscars" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars"
+    },
+    "Romance" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance"
+    },
+    "Crime" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Crime"
+    },
+    "Drama" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama"
+    },
+    "hasGenre" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre",
+      "@type" : "@id"
+    },
+    "budget" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Religious" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Religious"
+    },
+    "directsA" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA",
+      "@type" : "@id"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "producesA" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA",
+      "@type" : "@id"
+    },
+    "watchedBy" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy",
+      "@type" : "@id"
+    },
+    "aimedAt" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#aimedAt",
+      "@type" : "@id"
+    },
+    "hasWonAward" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward",
+      "@type" : "@id"
+    },
+    "StreamingPlatform" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform"
+    },
+    "Genre" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"
+    },
+    "language" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language",
+      "@type" : "http://www.w3.org/2001/XMLSchema#language"
+    },
+    "rating" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "scriptsA" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA",
+      "@type" : "@id"
+    },
+    "Action" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Action"
+    },
+    "Animation" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Animation"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "Serie" : {
+      "@id" : "http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie"
+    }
+  }
+}
