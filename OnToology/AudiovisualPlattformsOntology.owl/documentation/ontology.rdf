@@ -1,0 +1,1042 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#"
+     xml:base="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Audiovisual_Platform_Ontology="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology">
+        <dc:creator>María José Rimón Martínez
+Paula Fernández Aldama</dc:creator>
+        <dc:date>01/20/2023</dc:date>
+        <dc:description>This ontology has been created in order to be used by any audiovisual platforms</dc:description>
+        <dc:license rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+        <dc:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+        <dc:title>Audiovisual Platform Ontology</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#actsIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#aimedAt -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#aimedAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#availableAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#createdIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#directsA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCast">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasCertification">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasGenre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#hasWonAward">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#interestedIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#interestedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#producesA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#scriptsA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#watchedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#wonBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#budget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearAC">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#creationYearProfile">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#dvdReleaseYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#gender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#language">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#lengthMinutes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#nick">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#rating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#sinopsis">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#surname">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#totalUserReviews">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Action -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adult -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adventure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Adventure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Animation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Animation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Bafta -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Bafta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Comedy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Comedy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CostumeDesigner -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CostumeDesigner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Crime -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Crime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Documentary -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Documentary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Familiar -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Familiar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Fantasy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Fantasy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#GoldenGlobe -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#GoldenGlobe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Horror -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Horror">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MartialArts -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MartialArts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Mistery -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Mistery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Musical -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Musical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Awards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#CastandCrew"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Religious -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Religious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Science-Fiction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Science-Fiction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Serie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#AudiovisualContent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Thriller -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Thriller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#War -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#War">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#General(G) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#General(G)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NC-17(AdultsOnly) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NC-17(AdultsOnly)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NotRated(NR) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#NotRated(NR)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance(PG) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance(PG)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#ParentalGuidance-13(PG-13)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Restricted(R) -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Restricted(R)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Certification"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"/>
+        <actsIn rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#&apos;Gone_with_the_wind&apos;"/>
+        <gender>male</gender>
+        <name>Clark</name>
+        <surname>Gable</surname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Producer"/>
+        <producesA rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#&apos;Gone_with_the_wind&apos;"/>
+        <gender>male</gender>
+        <name>David</name>
+        <surname>O. Selznick</surname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Epic_History -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Epic_History">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#History"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#G -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#G">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#General(G)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#StreamingPlatform"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"/>
+        <actsIn rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#&apos;Gone_with_the_wind&apos;"/>
+        <gender>female</gender>
+        <name>Leslie</name>
+        <surname>Howard</surname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Profile"/>
+        <createdBy rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose"/>
+        <createdIn rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO"/>
+        <creationYearProfile rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</creationYearProfile>
+        <nick>MJP</nick>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MariaJose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Person"/>
+        <creates rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP"/>
+        <gender>Female</gender>
+        <name>MariaJose</name>
+        <surname>Rimonmartinez</surname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"/>
+        <actsIn rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#&apos;Gone_with_the_wind&apos;"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Drama"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Guionist"/>
+        <scriptsA rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#&apos;Gone_with_the_wind&apos;"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#True -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#True">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Oscars"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Director"/>
+        <directsA rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#&apos;Gone_with_the_wind&apos;"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Actor"/>
+        <actsIn rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#&apos;Gone_with_the_wind&apos;"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#&apos;Gone_with_the_wind&apos; -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#&apos;Gone_with_the_wind&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Movie"/>
+        <availableAt rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#HBO"/>
+        <directedBy rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Victor__Fleming"/>
+        <hasCast rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Clark_Gable"/>
+        <hasCast rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Leslie_Howard"/>
+        <hasCast rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Olivia_de_Havilland"/>
+        <hasCast rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Vivien_Leigh"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#G"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Epic_History"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Romantic_Drama"/>
+        <hasWonAward rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#True"/>
+        <producedBy rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#David_O._Selznick"/>
+        <scriptedBy rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#Sidney_Howard"/>
+        <watchedBy rdf:resource="http://www.semanticweb.org/mariajose/ontologies/2023/0/Audiovisual_Platform_Ontology#MJP"/>
+        <budget rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100000000.00</budget>
+        <creationYearAC rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1939</creationYearAC>
+        <dvdReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</dvdReleaseYear>
+        <language>English</language>
+        <lengthMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</lengthMinutes>
+        <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.2</rating>
+        <sinopsis>En la elegante mansión sureña de Tara, vive Scarlett O&apos;Hara, la joven más bella, caprichosa y egoísta de la región. Ella suspira por el amor de Ashley, pero él está prometido con su prima, la dulce y bondadosa Melanie. En la última fiesta antes del estallido de la Guerra, Scarlett conoce al cínico y apuesto Rhett Butler, un vividor arrogante y aventurero, que no tiene ninguna intención de participar en la contienda. Lo único que él desea es hacerse rico y conquistar a Scarlett</sinopsis>
+        <title>Gone_with _the_wind</title>
+        <totalUserReviews rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</totalUserReviews>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
